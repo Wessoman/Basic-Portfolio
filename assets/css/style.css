@@ -1,0 +1,70 @@
+/*
+find the colors used on web pages._
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+*/
+
+
+body {
+    background-color: #dfdfdf;
+}
+
+p {
+    color: #777777;
+}
+
+header h1{
+    color: #4aaaa5;
+}
+
+/* Navbar aka main header */
+#navbar {
+
+}
+
+#name {
+
+}
+
+#navigation_container {
+
+}
+
+#navigation {
+
+}
+
+/* Main body of website aka main content */
+.mainbox {
+    background-color: #ffffff;
+    width: 960px;
+    position: relative;
+
+
+}
+
+.mainbox h1 {
+
+}
+.content {
+
+}
+
+.aboutcopy {
+
+}
+
+/* Footer */
+footer {
+    background-color: #666666;
+}
+
+footer p {
+    color: white;
+}
+
