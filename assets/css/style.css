@@ -45,16 +45,18 @@ header h1 {
     display: block;
     float: right;
     color: #777777;
-    text-align: right;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
     margin: 0 auto;
 
-  
-
-  
 }
+
+#navigation a:hover {
+    background: #4aaaa5;
+    color: #ffffff;
+  }
 
 /* Main body of website aka main content */
 .mainbox {
