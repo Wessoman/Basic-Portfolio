@@ -18,13 +18,18 @@ p {
     color: #777777;
 }
 
-header h1{
+header h1 {
     color: #4aaaa5;
 }
 
 /* Navbar aka main header */
-#navbar {
-
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 100px;
+    position: fixed;
+    top: 0; 
+    width: 100%;
 }
 
 #name {
@@ -32,19 +37,32 @@ header h1{
 }
 
 #navigation_container {
-
+  
 }
 
 #navigation {
+    list-style: none;
+    display: block;
+    float: right;
+    color: #777777;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 auto;
 
+  
+
+  
 }
 
 /* Main body of website aka main content */
 .mainbox {
+    margin: 0 auto;
+    margin-top: 120px;
     background-color: #ffffff;
     width: 960px;
     position: relative;
-
 
 }
 
@@ -59,12 +77,23 @@ header h1{
 
 }
 
+/* gallery area on portfolio */
+.gallery {
+
+
+}
+
+/* Mailbox area on Contacts page */
+
+.mailbox {
+
+}
+
 /* Footer */
 footer {
     background-color: #666666;
 }
 
 footer p {
-    color: white;
+    color: lightgray;
 }
-
