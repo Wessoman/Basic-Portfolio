@@ -23,19 +23,23 @@ okay?
 
 body {
     background-color: #dfdfdf;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 p {
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 header h1 {
     color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 
 /* Navbar aka main header */
 nav {
-    
     background-color: #ffffff;
     overflow: hidden;
     height: 100px;
@@ -58,19 +62,18 @@ nav {
 #name {
     float: left;
     font-size: 20px;
-    width: 30%;
+    width: 35%;
     color: #ffffff;
     text-align: center;
     padding: 0px 10px 16px;
     background-color: #4aaaa5;
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #navigation {
     float: right;
-    width: 65%;
+    width: 60%;
     margin: 48px 12px 0 0;
-   
 }
 
 #navigation li{
@@ -84,7 +87,6 @@ nav {
 }
 
 /**remove from last item**/
-
 #navigation li:last-child a {
     border-right: none;
 }
@@ -92,17 +94,17 @@ nav {
 
 #navigation a {
     text-decoration: none;
-
 }
 
 #navigation a:hover {
     background: #4aaaa5;
     color: #ffffff;
-  }
+}
 
 .active {
     font-weight: bold;
 }  
+
 
 /* Main body of website aka main content */
 .mainbox {
@@ -113,7 +115,6 @@ nav {
     padding: 0 24px 6px 24px; 
     width: 912px;
     position: relative;
-
 }
 
 .mainbox h1 {
@@ -121,11 +122,6 @@ nav {
     margin: 6px 0px; 
     padding: 16px 0;
     border-bottom: 1px solid #dfdfdf;
-    
-
-}
-.content {
-    
 }
 
 .content img{
@@ -133,25 +129,26 @@ nav {
     float: left;
 }
 
-.content p{
-    
-    
-}
 
 /* gallery area on portfolio */
 .gallery {
 
-
 }
+
 
 /* Mailbox area on Contacts page */
 
 .mailbox {
-
+    color:#777777; 
 }
+
 
 /* Footer */
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #666666;
     padding: 1px 0px 0px;
     border-top: 3px solid #4aaaa5;
@@ -161,5 +158,4 @@ footer p {
     color: lightgray;
     text-align: center;
     font-size: smaller;
-    
 }
